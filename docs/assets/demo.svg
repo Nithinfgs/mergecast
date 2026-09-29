@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="522" height="474" viewBox="0 0 522 474">
+<rect width="100%" height="100%" rx="10" fill="#14171f"/>
+<circle cx="20" cy="18" r="6" fill="#ff5f56"/><circle cx="40" cy="18" r="6" fill="#ffbd2e"/><circle cx="60" cy="18" r="6" fill="#27c93f"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">
+<text x="22.0" y="52" fill="#d8dee9" font-weight="700">mergecast</text>
+<text x="97.6" y="52" fill="#7b8496"> · 5 worktrees · base main (089274a)</text>
+<text x="22.0" y="92" fill="#7b8496">  BRANCH         PATH           Δ BASE  DIRTY  BASE MERGE</text>
+<text x="22.0" y="112" fill="#d8dee9">  </text>
+<text x="38.8" y="112" fill="#d8dee9" font-weight="700">main         </text>
+<text x="148.0" y="112" fill="#d8dee9">  shop           +0 -0   ·      </text>
+<text x="416.8" y="112" fill="#69db7c">up to date</text>
+<text x="22.0" y="132" fill="#d8dee9">  </text>
+<text x="38.8" y="132" fill="#d8dee9" font-weight="700">agent/api    </text>
+<text x="148.0" y="132" fill="#d8dee9">  agent-api      +1 -1   ·      </text>
+<text x="416.8" y="132" fill="#69db7c">clean</text>
+<text x="22.0" y="152" fill="#d8dee9">  </text>
+<text x="38.8" y="152" fill="#d8dee9" font-weight="700">agent/auth   </text>
+<text x="148.0" y="152" fill="#d8dee9">  agent-auth     +1 -1   ·      </text>
+<text x="416.8" y="152" fill="#69db7c">clean</text>
+<text x="22.0" y="172" fill="#d8dee9">  </text>
+<text x="38.8" y="172" fill="#d8dee9" font-weight="700">agent/billing</text>
+<text x="148.0" y="172" fill="#d8dee9">  agent-billing  +1 -1   2      </text>
+<text x="416.8" y="172" fill="#69db7c">clean</text>
+<text x="22.0" y="192" fill="#d8dee9">  </text>
+<text x="38.8" y="192" fill="#d8dee9" font-weight="700">agent/docs   </text>
+<text x="148.0" y="192" fill="#d8dee9">  agent-docs     +1 -1   ·      </text>
+<text x="416.8" y="192" fill="#69db7c">clean</text>
+<text x="22.0" y="232" fill="#ff6b6b">✖</text>
+<text x="30.4" y="232" fill="#d8dee9"> </text>
+<text x="38.8" y="232" fill="#ff6b6b" font-weight="700">CONFLICT</text>
+<text x="106.0" y="232" fill="#d8dee9">  </text>
+<text x="122.8" y="232" fill="#d8dee9" font-weight="700">agent/auth</text>
+<text x="206.8" y="232" fill="#d8dee9"> ↔ </text>
+<text x="232.0" y="232" fill="#d8dee9" font-weight="700">agent/billing</text>
+<text x="22.0" y="252" fill="#d8dee9">    src/session.py  </text>
+<text x="190.0" y="252" fill="#7b8496">lines</text>
+<text x="232.0" y="252" fill="#d8dee9"> 38 </text>
+<text x="265.6" y="252" fill="#7b8496">vs</text>
+<text x="282.4" y="252" fill="#d8dee9"> 38,182  conflict</text>
+<text x="22.0" y="292" fill="#ffd43b">▲</text>
+<text x="30.4" y="292" fill="#d8dee9"> </text>
+<text x="38.8" y="292" fill="#ffd43b" font-weight="700">RISK</text>
+<text x="72.4" y="292" fill="#d8dee9">  </text>
+<text x="89.2" y="292" fill="#d8dee9" font-weight="700">agent/api</text>
+<text x="164.8" y="292" fill="#d8dee9"> ↔ </text>
+<text x="190.0" y="292" fill="#d8dee9" font-weight="700">agent/billing</text>
+<text x="22.0" y="312" fill="#d8dee9">    src/billing.py  </text>
+<text x="190.0" y="312" fill="#7b8496">lines</text>
+<text x="232.0" y="312" fill="#d8dee9"> 45 </text>
+<text x="265.6" y="312" fill="#7b8496">vs</text>
+<text x="282.4" y="312" fill="#d8dee9"> 40  close (≤20 lines)</text>
+<text x="22.0" y="352" fill="#74c0fc">◆</text>
+<text x="30.4" y="352" fill="#d8dee9"> </text>
+<text x="38.8" y="352" fill="#74c0fc" font-weight="700">OVERLAP</text>
+<text x="97.6" y="352" fill="#d8dee9">  </text>
+<text x="114.4" y="352" fill="#d8dee9" font-weight="700">agent/api</text>
+<text x="190.0" y="352" fill="#d8dee9"> ↔ </text>
+<text x="215.2" y="352" fill="#d8dee9" font-weight="700">agent/docs</text>
+<text x="22.0" y="372" fill="#d8dee9">    src/api.py  </text>
+<text x="156.4" y="372" fill="#7b8496">lines</text>
+<text x="198.4" y="372" fill="#d8dee9"> 3 </text>
+<text x="223.6" y="372" fill="#7b8496">vs</text>
+<text x="240.4" y="372" fill="#d8dee9"> 70  same file, far apart</text>
+<text x="22.0" y="432" fill="#ff6b6b">1 conflict</text>
+<text x="106.0" y="432" fill="#d8dee9">  </text>
+<text x="122.8" y="432" fill="#ffd43b">1 risk</text>
+<text x="173.2" y="432" fill="#d8dee9">  </text>
+<text x="190.0" y="432" fill="#74c0fc">1 overlap</text>
+<text x="265.6" y="432" fill="#d8dee9">  </text>
+<text x="282.4" y="432" fill="#69db7c">3 clean</text>
+<text x="341.2" y="432" fill="#7b8496">  of 6 pairs</text>
+</g></svg>
