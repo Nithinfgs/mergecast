@@ -4,6 +4,7 @@
 Used to produce docs/assets/demo.svg from real mergecast output:
     scripts/make_demo_svg.sh
 """
+
 import re
 import sys
 from xml.sax.saxutils import escape
@@ -42,7 +43,8 @@ def main() -> None:
             elif part:
                 x = PAD + col * CW
                 w = ' font-weight="700"' if bold else ""
-                spans.append(f'<text x="{x:.1f}" y="{y}" fill="{color}"{w}>{escape(part).replace(' ', chr(160))}</text>')
+                body = escape(part).replace(" ", "\u00a0")
+                spans.append(f'<text x="{x:.1f}" y="{y}" fill="{color}"{w}>{body}</text>')
                 col += len(part)
         out.extend(spans)
     out.append("</g></svg>")
