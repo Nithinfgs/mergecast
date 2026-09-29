@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mergecast"
+version = "0.1.0"
+description = "Forecast merge conflicts between parallel git worktrees and AI coding agents, including uncommitted work."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Nithin Selvaraj" }]
+keywords = ["git", "worktree", "merge-conflict", "ai-agents", "claude-code", "codex", "cli"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Version Control :: Git",
+  "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.10", "build"]
+
+[project.scripts]
+mergecast = "mergecast.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Nithinfgs/mergecast"
+Issues = "https://github.com/Nithinfgs/mergecast/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mergecast = ["py.typed"]
+
+[tool.ruff]
+line-length = 120
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["UP007", "UP045", "E501"]
+
+[tool.mypy]
+strict = true
+python_version = "3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
